@@ -10,7 +10,6 @@ body {
 }
 img {
 	user-select: none;
-	width: 50vw;
 }
 a {
 	text-decoration: none;
@@ -38,13 +37,13 @@ nav ul {
 }
 section {
 	height: 100vh;
-	width: 98.8vw;
+	width: 100vw;
 }
 #main {
 	overflow: hidden;
 }
 #main img {
-	width: 98.8vw;
+	width: inherit;
 }
 #homeBtn {
 	position: fixed;
