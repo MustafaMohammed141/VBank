@@ -7,6 +7,7 @@
 }
 body {
 	width: 95vw;
+	overflow-x: hidden;
 }
 img {
 	user-select: none;
