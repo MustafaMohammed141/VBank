@@ -1,12 +1,17 @@
 //* ---- Scrolling ---- *//
 const abtLnk = document.getElementById("abtLnk");
 const homeBtn = document.getElementById("homeBtn");
+const servLink = document.getElementById("servLink");
 
 abtLnk.addEventListener("click", function (event) {
 	ScrollBtn(event, "aboutUs");
 });
+
 homeBtn.addEventListener("click", function (event) {
 	ScrollBtn(event, "main");
+});
+servLink.addEventListener("click", function (event) {
+	ScrollBtn(event, "services");
 });
 
 function ScrollBtn(event, eId) {
