@@ -27,7 +27,6 @@
 		<main>
 			<section id="main">
 				<img src="./Assets/Images/Background.png" alt="" />
-				<button id="homeBtn"><i class="fa-solid fa-arrow-up" style="font-size: xx-large"></i></button>
 			</section>
 			<section id="aboutUs">
 				<div class="aboutTxt">
@@ -36,17 +35,80 @@
 						VBank is a virtual bank that provides online banking services to its customers. We offer a wide range of services, including online
 						banking, mobile banking, and bill payment services. Our goal is to provide a convenient and secure way to manage finances online. We are
 						committed to offering the best possible service and support, and we are always looking for ways to improve our services.
+						<a href="About">More...</a>
 					</p>
 				</div>
 				<img src="./Assets/Images/about.png" class="aboutImg" />
 			</section>
 			<section id="services">
-				<div id="insurance"><p>Insurance</p></div>
-				<div id="cards"><p>Cards</p></div>
-				<div id="loans"><p>Loans</p></div>
-				<div id="moreServices"><p>More Services</p></div>
+				<a href="./Services/insurance.html">
+					<div id="insurance" class="servicesDivs">
+						<i class="fa-solid fa-house-circle-check" style="font-size: 1.9em; text-shadow: 0px 2px 9px darkslategray"></i>
+						<p> Insurance</p>
+					</div>
+				</a>
+				<a href="./Services/cards.html">
+					<div id="cards" class="servicesDivs">
+						<i class="fa-regular fa-credit-card" style="font-size: 1.9em; text-shadow: 0px 2px 9px darkslategray"></i>
+
+						<p> Cards</p>
+					</div>
+				</a>
+				<a href="./Services/loans.html">
+					<div id="loans" class="servicesDivs">
+						<i class="fa-solid fa-coins" style="font-size: 1.9em; text-shadow: 0px 2px 9px darkslategray"></i>
+						<p> Loans</p>
+					</div>
+				</a>
+				<a href="./Services/Main.html">
+					<div id="moreServices" class="servicesDivs">
+						<p>More </p>
+						<i class="fa-solid fa-chevron-right" style="font-size: 1.9em; text-shadow: 0px 2px 9px darkslategray"></i>
+					</div>
+				</a>
 			</section>
 		</main>
+		<button id="homeBtn"><i class="fa-solid fa-arrow-up" style="font-size: 1.6vw"></i></button>
+
+		<footer>
+			<!-- حقوق الملكية (Copyright):
+زي: © 2025 اسم الموقع. جميع الحقوق محفوظة.
+© 2025 Virtual bank inc. All rights reserved
+روابط سريعة (Quick Links):
+زي: "اتصل بنا"، "الشروط والأحكام"، "سياسة الخصوصية".
+معلومات التواصل:
+بريد إلكتروني
+أرقام الهاتف
+العنوان (لو مناسب)
+روابط السوشيال ميديا:
+أيقونات وروابط للصفحات على الفيسبوك، تويتر، إنستجرام... إلخ. -->
+			<section id="ftrSec1">
+				<div><img src="./Assets/Images/LOGO2.png" alt="Logo" id="footerLogo" /></div>
+				<div id="ftrInfo">
+					<h3>information</h3>
+					<ul>
+						<li><a href="About">About Us</a></li>
+						<li><a href="Blog">Blog</a></li>
+						<li><a href="Events">Events</a></li>
+					</ul>
+				</div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</section>
+			<div id="line"></div>
+			<section id="ftrSec2">
+				<div></div>
+				<div><p>© 2025 Virtual bank inc. All rights reserved</p></div>
+				<div>
+					<ul>
+						<li><a href="FAQ.html">FAQ</a></li>
+						<li><a href="privacy.html">Privacy</a></li>
+						<li><a href="terms">Terms & Conditions</a></li>
+					</ul>
+				</div>
+			</section>
+		</footer>
 		<script src="./Assets/JS/index.js"></script>
 	</body>
 </html>
