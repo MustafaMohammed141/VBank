@@ -13,6 +13,7 @@ body {
 	width: 100vw;
 	overflow-x: hidden;
 	background-color: aliceblue;
+	background-color: aliceblue;
 }
 img {
 	user-select: none;
@@ -94,7 +95,13 @@ main section {
 	justify-content: center;
 	width: 16vw;
 	height: 16vw;
+	width: 16vw;
+	height: 16vw;
 	border-radius: 20px;
+	transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.servicesDivs:hover {
+	transform: scale(1.05);
 	transition: transform 0.2s ease, background-color 0.2s ease;
 }
 .servicesDivs:hover {
